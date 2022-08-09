@@ -5,3 +5,7 @@
 [node name="MainScene" type="Node2D"]
 
 [node name="Player" parent="." instance=ExtResource( 1 )]
+position = Vector2( 47, 32 )
+
+[node name="TileMap" type="TileMap" parent="."]
+format = 1
